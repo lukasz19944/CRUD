@@ -22,7 +22,7 @@
         <!-- Update database schema on startup -->
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <!-- Mapping With Model Class Containing Annotations -->
+        <!-- Mapping With Model Class -->
         <mapping resource="user.hbm.xml" />
     </session-factory>
 </hibernate-configuration>
